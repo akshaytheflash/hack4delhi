@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+
+# Node/JS
+node_modules/
+dist/
+dist-ssr
+*.local
+.npm
+.eslintcache
+.stylelintcache
+package-lock.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/data/delhi_mock.tif
+backend/data/risk_heatmap.geojson
+frontend/dist/
